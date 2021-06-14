@@ -1,9 +1,9 @@
 <?php 
 
 $servername ='localhost';
-$username ='bitroot';
-$password ='qwerty';
-$database='delta123';
+$username ='<DB username>';
+$password ='<DB password>';
+$database='<DB name>';
 
 $conn= mysqli_connect($servername,$username,$password,$database);
 if(!$conn){
